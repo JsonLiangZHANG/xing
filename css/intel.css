@@ -1,0 +1,122 @@
+/*
+ * author:zhangYuanliang
+ * time:2017-08-17
+ * */
+section > div.container > div.row {
+  margin-bottom: 20px;
+}
+div.img-title {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.col-lg-12.col-md-12.col-sm-6.col-xs-12 {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+}
+.col-lg-12.col-md-12.col-sm-6.col-xs-12 .media {
+  padding: 30px 0 30px 30px;
+}
+.col-lg-12.col-md-12.col-sm-6.col-xs-12 .half-mask{
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 92.3%;
+  position: absolute;
+  top: 75%;
+  left: 15px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.col-lg-12.col-md-12.col-sm-6.col-xs-12 .half-mask:hover {
+  top: 0;
+  transition: top 200ms;
+}
+body {
+  font-family: "SimHei", "SimSun", Arial, sans-serif;
+  color: #fff;
+  background-color: #fff;
+}
+.navbar {
+  background-color: rgba(0,0,0,0);
+  border-color:rgba(0,0,0,0);
+}
+
+.navbar .navbar-header span {
+  background-color: #fff;
+}
+.navbar a.drop_link {
+  padding-left:15px;
+  padding-right: 15px;
+  font-size: 14px;
+}
+.navbar a {
+	font-weight:bold;
+  color: #fff;
+}
+.navbar .navbar-brand {
+  width: 90px;
+  height: 26px;
+  padding: 0;
+  margin-top:12px;
+   margin-left: 5px;
+  margin-right: 10px;
+  background: url('../images/logo.png') no-repeat center center;
+  background-size:100% 100%;
+}
+
+div.form-group button.search_btn{
+	height:23px;
+	width:20px;
+	background-color:transparent;
+	border:none;
+	position: absolute;
+	right:4px;
+}
+.navbar li a {
+  color: #fff!important;
+  cursor: pointer;
+}
+
+
+.col-lg-12.col-md-12.col-sm-6.col-xs-12 .media {
+  background-color: #0071c5;
+}
+.col-lg-12.col-md-12.col-sm-6.col-xs-12 .media .media-body {
+  border-left: 1px solid #00aeef;
+}
+.col-lg-12.col-md-12.col-sm-6.col-xs-12 .media .media-body ul li {
+  margin: 5px 0 5px 10px;
+}
+.col-lg-12.col-md-12.col-sm-6.col-xs-12 .media .media-body ul li a {
+  color: #fff;
+}
+
+  .item img{
+        	width:100%;
+        	height:auto;
+        }
+  .carousel-control {
+	      width: 10%;
+	     font-size:50px;
+	     height:80px;
+	     line-height:80px;
+	     top:50%;
+	     margin-top:-40px;
+    }
+  
+
+
+.list-unstyled li{
+	text-align: center;
+}
+/*list*/
+.list_content{
+	margin-top:20px;
+}
+.title_header{
+	line-height:50px;
+	font-size:30px;
+	color:#333;
+	text-align: center;
+}

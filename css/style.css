@@ -1,0 +1,1027 @@
+/*
+ * author:zhangYuanliang
+ * time:2017-08-17
+ * */
+.dropdown-menu li a:hover,.navbar li.active a:hover{
+	background:rgba(0,0,0,0) !important;
+	color:rgb(47,160,98)!important;
+}
+.navbar li.active a.drop_link{
+	background:rgba(0,0,0,0) !important;
+	color:rgb(47,160,98)!important;
+}
+.navbar-default .navbar-nav > .open > a,
+ .navbar-default .navbar-nav > .open > a:hover, 
+ .navbar-default .navbar-nav > .open > a:focus{
+	background:rgba(0,0,0,0) !important;
+	color:rgb(47,160,98) !important;
+}
+h4{
+	font-size:24px;
+}
+
+.backtop{
+			height: 46px;
+		    width: 46px;
+		    position: fixed;
+		    top: 60%;
+		    z-index:999998;
+		    background: url(http://shop-1252135873.cosgz.myqcloud.com/goods/backtop.png) no-repeat;
+		   
+		}
+.page_title{
+	margin-top:10px;
+	font-size:30px;
+	color:#000;
+	text-align: center;
+	font-weight: bold;
+	line-height:100px;
+}
+
+/**banner**/
+.carousel-indicators .active{
+	background-color:rgb(56,180,108);
+	border: 1px solid rgb(56,180,108);
+}
+#myCarousel .carousel-caption{
+	width:100%;
+	height: 100%;
+	left:0px;
+	top:0px;
+	background-color:rgba(0,0,0,.6)!important;
+	background-size:100% 100%;
+}
+.banner_content{
+	 height:150px;
+	 position:absolute;
+	 top:50%;
+	 width:100%;
+	 margin-top:-75px;
+}
+.banner_content p{
+	text-overflow:-o-ellipsis-lastline;  
+	overflow: hidden;  
+	text-overflow: ellipsis;  
+	display: -webkit-box;  
+	-webkit-line-clamp: 1;  
+	-webkit-box-orient: vertical;  
+}
+.banner_btn{
+	margin-top:10px;
+	background: rgb(56,180,108);
+	padding:8px 45px;
+	font-size:16px;
+	font-weight:bold;
+	border-radius:18px;
+}
+.banner_title{
+	font-weight:bold;
+	font-size:40px;
+	line-height:60px;
+}
+.banner_title .title_other{
+	font-size:26px;
+	color:rgb(255,174,57);
+}
+.banner_detail{
+	font-size:16px;
+	line-height:30px;
+}
+/*课程学习**/
+.course_box{
+	padding:0!important;	
+	background: #eee;
+}
+.course_box:hover{
+	border-color:rgb(56,180,108);
+}
+.course_box img{
+	width:100%;
+}
+.course_title{
+	padding:0 20px;
+	text-overflow:-o-ellipsis-lastline;  
+	overflow: hidden;  
+	text-overflow: ellipsis;  
+	display: -webkit-box;  
+	-webkit-line-clamp: 1;  
+	-webkit-box-orient: vertical;  
+	font-size:24px;
+	line-height:40px;
+	font-weight: bold;
+}
+.caption p{
+	padding:4px 20px;
+	margin-bottom: 20px;
+}
+.course_detail{
+	border-bottom: 1px solid #ddd;
+	font-size:14px;
+	line-height:1.4;
+	text-overflow:-o-ellipsis-lastline;  
+	overflow: hidden;  
+	text-overflow: ellipsis;  
+	display: -webkit-box;  
+	-webkit-line-clamp: 3;  
+	-webkit-box-orient: vertical;
+}
+.course_info{
+	margin:0 40px;
+	font-size:20px;
+	color:#000;
+	font-weight:bold;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+.enlist_btn{
+	margin-top:40px;
+	width:100%;
+	color:#fff;
+	line-height:30px;
+	font-weight:bold;
+	border-radius: 30px;
+	background:rgb(56,180,108);
+}
+.more_btn{
+	text-align: center;
+}
+.more_btn a{
+	font-weight:bold;
+	color:#999;
+}
+/*热门直播*/
+.broadcast_container{
+	margin-top:30px;
+	background: #eee;
+}
+.broadcast_box{
+	padding:0!important;
+	background:#eee;
+	border: none;
+}
+.broadcast_box img{
+	display:block;
+	width:150px;
+	height:auto;
+	border-radius: 50%;
+}
+.broadcast_title{
+	text-align: center;
+	text-overflow:-o-ellipsis-lastline;  
+	overflow: hidden;  
+	text-overflow: ellipsis;  
+	display: -webkit-box;  
+	-webkit-line-clamp: 1;  
+	-webkit-box-orient: vertical;  
+	font-size:24px;
+	line-height:40px;
+	font-weight: bold;
+}
+.broadcast_detail{
+	text-align: center;
+	font-size:14px;
+	line-height:1.4;
+	text-overflow:-o-ellipsis-lastline;  
+	overflow: hidden;  
+	text-overflow: ellipsis;  
+	display: -webkit-box;  
+	-webkit-line-clamp: 3;  
+	-webkit-box-orient: vertical;
+}
+/*热门活动*/
+	.box{
+		text-align: center;
+		overflow: hidden;
+		position: relative;
+		margin:10px auto;
+	}
+	.box:before{
+		content: "";
+		width: 0;
+		height: 100%;
+		background: rgb(61,171,108);
+		padding: 14px 18px;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		opacity: 0;
+		transition: all 500ms cubic-bezier(0.47, 0, 0.745, 0.715) 0s;
+	}
+	.box:hover:before{
+		width: 100%;
+		left: 0;
+		opacity: 0.5;
+	}
+	.box img{
+		width: 100%;
+		height: auto;
+	}
+	.activity_content{
+		width: 100%;
+		padding: 14px 18px;
+		color: #fff;
+		position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	}
+	.activity_content .title0{
+		font-weight:bold;
+		text-transform: capitalize;
+		opacity: 1;
+		transition: all 0.5s ease 0s;
+	}
+	.box .box-content{
+		width: 100%;
+		padding: 14px 18px;
+		color: #fff;
+		position: absolute;
+		top: 38%;
+		left: 0;
+	}
+	.box .title{
+		font-size: 25px;
+		font-weight: 600;
+		line-height: 30px;
+		text-transform: uppercase;
+		margin: 0;
+		opacity: 0;
+		transition: all 0.5s ease 0s;
+	}
+	.box .post{
+		font-size: 15px;
+		text-overflow:-o-ellipsis-lastline;  
+		overflow: hidden;  
+	    text-overflow: ellipsis;  
+		display: -webkit-box;  
+		-webkit-line-clamp: 3;  
+		-webkit-box-orient: vertical;
+		text-transform: capitalize;
+		opacity: 0;
+		transition: all 0.5s ease 0s;
+	}
+	.box:hover .title,
+	.box:hover .post{
+		opacity: 1;
+		transition-delay: 0.7s;
+	}
+	.box:hover .title0{
+		opacity: 0;
+		transition-delay: 0s;
+	}
+	/*明星导师*/
+	.tutor_container{
+		margin-top:30px;
+	    background: #eee;
+	}
+	.tutor_head{
+		width:100px;
+		height:100px;
+		border-radius: 50%;
+	}
+	.tutor_name{
+		color:#000;
+		font-weight:bold;
+		font-size:24px;
+		line-height:50px;
+	}
+	.tutor_title{
+		color: rgb(56,180,108);
+		font-weight:bold;
+		font-size:18px;
+		line-height:20px;
+	}
+	.tutor_left{
+		padding-left:20px;
+	}
+	.tutor{
+		margin:40px auto;
+	}
+	/*旅游出行*/
+	.footer6{
+		position: relative;
+	}
+	 .floor6_container{
+	 	color:#000;
+    	width: 100%;
+    	height:470px;
+        margin: 20px auto;
+    }
+    .floor6_slide {
+        text-align:center;
+        font-size: 18px;
+        background: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper-container-horizontal>.pagination1 {
+			display:none;
+		    bottom:0px;
+		    left: 0;
+		    width: 100%;
+		}
+		.box-shadow1{
+			width:100%;
+			margin-left:15px;
+			margin-right:15px;
+		}
+		.box-shadow1 img{
+			display:block;
+			width:100%;
+			height: auto;
+		}
+		.slide_div_text{
+			margin-top:20px;
+		}
+		.slide_div_text h2{
+			font-size:18px;
+			line-height:1.4;
+			font-weight:bold;
+			text-overflow:-o-ellipsis-lastline;  
+			overflow: hidden;  
+			text-overflow: ellipsis;  
+			display: -webkit-box;  
+			-webkit-line-clamp: 1;  
+			-webkit-box-orient: vertical;
+		}
+		/*.toursim_title{
+			margin-top:20px;
+		}*/
+		.slide_div_text p{
+			margin-top:20px;
+			text-align: left;
+			font-size:14px;
+			line-height:1.4;
+			text-overflow:-o-ellipsis-lastline;  
+			overflow: hidden;  
+			text-overflow: ellipsis;  
+			display: -webkit-box;  
+			-webkit-line-clamp: 4;  
+			-webkit-box-orient: vertical;
+		}
+		.tourism_btn{
+			width:200px;
+			display:block;
+			margin:20px auto;
+		}
+		/*私人定制*/
+		.personal_container{
+			margin: 10px auto;
+			width:100%;
+			height:200px;
+			background:url(../images/personal.png)no-repeat center center;
+			background-size:100% 100%;
+		}
+		.personal_row{
+			position:relative;
+		}
+		.personal_info{
+			color:#fff;
+			line-height:200px;
+			font-size:20px;
+		}
+		.personal_btn{
+			position:absolute;
+			right:5px;
+			top:50%;
+			margin-top:-15px;
+		}
+		/*学员专享福利*/
+		.welfare_title:after{
+			content:"";
+			display:table;
+			clear:both;
+		}
+		.welfare_title{
+			padding-top:5px;
+			padding-bottom: 5px;
+			color:#000;
+			border: 1px solid #ddd;
+			border-radius: 10px;
+			margin-bottom: 25px;
+		}
+		.welfare_title .form_tile{
+			cursor: pointer;
+			text-align: center;
+			font-size:20px;
+		}
+		.welfare_title .form_tile.first{
+			border-right:1px solid #ddd;
+		}
+		.welfare_title .form_tile.active{
+			color:rgb(56,180,108);
+		}
+		.login{
+			color:#000;
+		}
+		 .login .login_input{
+			border-bottom:1px solid #ddd;
+			margin-left:0px;
+			margin-right:0px;
+		}
+		.login .corde_group{
+			margin-left:0px;
+			margin-right:0px;
+		}
+		.login .corde{
+			padding-left:0px;
+		}
+		.login_input .text_input{
+			border:none;
+			outline: none;
+			box-shadow:none;
+			line-height:34px;
+		}
+		.control-label{
+			padding-top:0px!important;
+			line-height: 34px;
+			font-size:12px;
+			text-align: left!important;
+		}
+		
+		.login_btn{
+			background-color:rgb(22,165,226)!important;			
+			color:#fff;
+			width: 200px;
+		    display:block;
+		    margin: 50px auto;
+		}
+		.sigin_btn{
+			background-color:red!important;			
+			color:#fff;
+			width: 200px;
+		    display: none;
+		    margin: 50px auto;
+		}
+		
+		.welfare_img img{
+			width:100%;
+			height:auto;
+			display:block;
+			margin-bottom: 10px;
+		}
+		#code{ 
+			text-align: center;
+			background:#ddd;
+            font-family:Arial,宋体; 
+            font-style:italic; 
+            color:green; 
+            border:0; 
+            padding:2px 3px; 
+            letter-spacing:10px; 
+            font-weight:bolder; 
+        } 
+		/*底部*/
+		footer {
+		  padding: 25px 0;
+		  background-color: #333;
+		  min-height: 300px;
+		  color: #fff;
+		}
+		.footer_info li {
+		  line-height:30px;
+		}
+		.footer_info li a {
+			font-size:16px;
+		  color: #fff;
+		}
+		.footer_info li h4 {
+			font-size:24px;
+			line-height:50px;
+		  color: #fff;
+		}
+		.footer_info li a:hover,
+		.footer_info li a:active{
+			color: red;
+			text-decoration: none;
+		}
+		.footer_logo{
+			width:200px;
+			height:auto;
+			display:block;
+			margin:0 auto;
+			margin-top:30px;
+		}
+		.logo_ul:after{
+			content:"";
+			display:table;
+			clear:both;
+		}
+		.logo_ul{
+			width:300px;
+			margin:20px auto;
+		}
+		.logo_ul li{
+			float:left;
+			width:25%;
+			position:relative;
+		}
+		.logo_ul li img{
+			display:block;
+			margin:0 auto;
+		}
+		.copy{
+			margin-top:10px;
+			display:block;
+			color:#fff;
+			font-size:18px;
+			line-height:1.4;
+			text-align:right;
+		}
+		 .logo_ul li .tan_icon{
+		  	display:none;
+		  	position:absolute;
+		  	width:200px;
+		  	height:230px;
+		  	top:-240px;
+		  	left:-60px;
+		  }
+		.copy:hover,
+		.copy:active{
+			color:red;
+		}
+/*手机样式*/
+@media screen and (min-width: 300px) and (max-width:374px) {
+	section{
+		margin-top:51px;
+        }
+	.navbar {
+		  background-color: rgba(0,0,0,.9)!important;
+		  border-color:rgba(0,0,0,.9)!important;
+		}
+	.item img{
+        	width:100%;
+        	height:180px!important;
+        }
+        .item.item0 img{
+        	width:100%;
+        	height:180px!important;
+        }
+        .active_address,.active_time{
+        	font-size:12px !important;
+        }
+    .btn{
+    	   font-size:12px;
+    		padding: 4px;
+    	}
+    .course_select0 label,.course_select1 label{
+    		font-size:12px !important;
+    	}
+	.pagination > li > a, .pagination > li > span {
+		    font-size:14px;
+		    padding: 6px 8px;
+		    line-height:16px ;
+		 }
+	.page_paginate ul.pagination{
+       	display:block;
+       	  margin:10px auto;
+       	  width:275px;
+       }	
+	.course_name{
+		font-size:14px !important;
+		line-height:20px !important;
+	}		
+	.course_p{		
+			font-size:12px!important;
+			-webkit-line-clamp:3!important;  
+	}
+	/*banner*/
+	.banner_title{
+		font-size:16px!important;
+	line-height:30px!important;
+	}
+	.banner_title .title_other{
+	    font-size:12px!important;
+	}
+	.banner_detail{
+		font-size:12px!important;
+		line-height:20px!important;
+	}
+	.banner_content{
+	 height:120px;
+	 position:absolute;
+	 top:50%;
+	 width:100%;
+	 margin-top:-60px;
+   }
+   .banner_btn{
+   	padding:8px 25px;
+   	font-size:12px;
+   }
+   /*旅游出行*/
+  .slide_div_text h2{
+  	font-size:12px;
+    line-height:1.3;
+    -webkit-line-clamp: 2;  
+  }
+ .slide_div_text{
+			margin-top:10px;
+		}
+  .slide_div_text p{
+			margin-top:1px;
+			font-size:10px;
+			line-height:1.4;
+			-webkit-line-clamp: 6;  
+	}
+	.box-shadow1{
+			margin-left:5px;
+			margin-right:5px;
+		}
+		.floor6_container{
+		 	width: 100%;
+	    	height:250px;
+	        margin: 10px auto;
+		 }
+    .box .post{
+		font-size:12px;
+	}
+	.box .title{
+		font-size: 18px;
+		line-height:20px;
+		}
+    /*.activity_content{
+    	top:10%;
+    }*/
+    .box .box-content{
+		padding:8px 5px;
+		top: 10%;
+	}
+	.title0{
+		font-size:16px;
+		line-height:20px;
+	}
+	/*热门直播*/
+	.broadcast_box img{
+		display:block;
+		width:80px;
+		height:auto;
+		}
+		.broadcast_title{
+		font-size:16px;
+		line-height:20px;
+	}
+	   .broadcast_detail{
+		font-size:12px;
+		line-height:1.5;
+		-webkit-line-clamp:5;  
+	    }
+		 /*私人定制*/
+		.personal_container{
+			margin: 10px auto;
+			width:100%;
+			height:80px;
+			
+		}
+		.personal_info{
+			padding-left:5px;
+			color:#fff;
+			line-height:80px;
+			font-size:14px;
+		}
+		/*明星导师*/
+	.tutor_container{
+		margin-top:15px;
+	    background: #eee;
+	}
+	.tutor_head{
+		width:40px;
+		height:40px;
+		border-radius: 50%;
+	}
+	.tutor_name{
+		color:#000;
+		font-weight:bold;
+		font-size:14px;
+		line-height:1.4;
+	}
+	.tutor_title{
+		color: rgb(56,180,108);
+		font-weight:bold;
+		font-size:12px;
+		line-height:1.4;
+	}
+	.tutor_left{
+		padding-left:8px;
+		padding-right:5px;
+	}
+	.tutor{
+		margin:20px auto;
+	}
+	/*footer*/
+	.corde_label{
+		padding-right:0px!important;	
+		}
+	.copy{
+		font-size:16px;
+		line-height:1.4;
+		text-align:center;
+		}
+	#code{ 
+            letter-spacing:4px; 
+            font-weight:bolder; 
+        } 
+      .logo_ul li .tan_icon{
+		  	display:none;
+		  	position:absolute;
+		  	width:80px;
+		  	height:110px;
+		  	top:-120px;
+		  	left:-3px;
+		  }
+}
+ @media screen and (min-width: 375px) and (max-width: 480px) {
+ 	section{
+		   margin-top:51px;
+        }
+ 	.navbar {
+		  background-color: rgba(0,0,0,.9)!important;
+		  border-color:rgba(0,0,0,.9)!important;
+		}
+ 	.item img{
+        	width:100%;
+        	height:180px!important;
+        }
+    .item.item0 img{
+        	width:100%;
+        	height:180px!important;
+        }
+    .btn{
+    		padding: 4px 5px;
+    	}
+    .course_select0 label,.course_select1 label{
+    		font-size:14px !important;
+    	}
+	.pagination > li > a, .pagination > li > span {
+		    font-size:14px;
+		    padding: 6px 8px;
+		    line-height:16px ;
+		 }
+	.page_paginate ul.pagination{
+       	display:block;
+       	  margin:10px auto;
+       	  width:275px;
+       }	
+	.course_name{
+		font-size:16px !important;
+		line-height:20px !important;
+	}		
+	.course_p{		
+			font-size:12px!important;
+			-webkit-line-clamp:3!important;  
+	}
+	/*banner*/
+	.banner_title{
+		font-size:20px!important;
+	    line-height:30px!important;
+	}
+	.banner_title .title_other{
+	    font-size:14px!important;
+	}
+	.banner_detail{
+		font-size:14px !important;
+		line-height:20px!important;
+	}
+	.banner_content{
+	 height:120px;
+	 position:absolute;
+	 top:50%;
+	 width:100%;
+	 margin-top:-60px;
+}
+    .banner_btn{
+    	padding:8px 25px;
+   	  font-size:12px;
+   }
+    /*旅游出行*/
+  .slide_div_text h2{
+  	font-size:14px;
+    line-height:1.3;
+    -webkit-line-clamp: 2;  
+  }
+  .slide_div_text{
+			margin-top:10px;
+		}
+  .slide_div_text p{
+			margin-top:0px;
+			font-size:12px;
+			line-height:1.2;
+			-webkit-line-clamp:5;  
+	}
+	.box-shadow1{
+			margin-left:5px;
+			margin-right:5px;
+		}
+	.floor6_container{
+		 	width: 100%;
+	    	height:260px;
+	        margin: 10px auto;
+	}
+     .box .post{
+		font-size:12px;
+	}
+	.box .title{
+		font-size: 18px;
+		line-height:20px;
+		}
+	/*.activity_content{
+    	top:20%;
+    }*/
+    .box .box-content{
+		padding:8px 5px;
+		top: 10%;
+	}
+	.title0{
+		font-size:16px;
+		line-height:20px;
+	}
+	/*热门直播*/
+	.broadcast_box img{
+		display:block;
+		width:80px;
+		height:auto;
+		}
+    .broadcast_title{
+		font-size:16px;
+		line-height:20px;
+	}
+   .broadcast_detail{
+	font-size:12px;
+	line-height:1.5;
+	-webkit-line-clamp:5;  
+    }
+		  /*私人定制*/
+		.personal_container{
+			margin: 10px auto;
+			width:100%;
+			height:80px;
+			
+		}
+		.personal_info{
+			color:#fff;
+			padding-left:5px;
+			line-height:80px;
+			font-size:14px;
+		}
+		/*明星导师*/
+	.tutor_container{
+		margin-top:15px;
+	    background: #eee;
+	}
+	.tutor_head{
+		width:40px;
+		height:40px;
+		border-radius: 50%;
+	}
+	.tutor_name{
+		color:#000;
+		font-weight:bold;
+		font-size:14px;
+		line-height:1.4;
+	}
+	.tutor_title{
+		color: rgb(56,180,108);
+		font-weight:bold;
+		font-size:12px;
+		line-height:1.4;
+	}
+	.tutor_left{
+		padding-left:8px;
+		padding-right:5px;
+	}
+	.tutor{
+		margin:20px auto;
+	}
+	/*footer*/
+	.corde_label{
+		padding-right:0px!important;	
+		}
+	.copy{
+		font-size:16px;
+		line-height:1.4;
+		text-align:center;
+		}
+		#code{ 
+            letter-spacing:6px; 
+            font-weight:bolder; 
+        } 
+        .logo_ul li .tan_icon{
+		  	display:none;
+		  	position:absolute;
+		  	width:80px;
+		  	height:110px;
+		  	top:-120px;
+		  	left:-3px;
+		  }
+}
+
+/*pc端*/
+  @media(min-width: 767px){
+    	/*footer*/
+		.copy{
+			text-align:center;
+			}
+    	.navbar-fixed-top{
+    		position: absolute!important;
+    	}
+    	.item img{
+        	width:100%;
+        	height:300px!important;
+        }
+        .item.item0 img{
+        	width:100%;
+        	height:300px!important;
+        }
+		.register_box{
+					width:500px;
+				}
+			.navbar a.drop_link {
+				 padding-left:7px;
+		    padding-right: 7px;
+		    font-size: 14px;
+			}
+			
+				.pagination > li > a, .pagination > li > span {
+		    font-size:20px;
+		    padding: 6px 12px;
+		    line-height:24px ;
+		 }
+		 .page_paginate ul.pagination{
+       	display:block;
+       	  margin:10px auto;
+       	  width:400px;
+       }	
+	}
+	@media(min-width: 992px){
+		.navbar-fixed-top{
+    		position: absolute!important;
+    	}
+		.item img{
+        	width:100%;
+        	height:600px!important;
+        }
+        .item.item0 img{
+        	width:100%;
+        	height:300px!important;
+        }
+		 .navbar a.drop_link {
+		     padding-left: 7px;
+		    padding-right: 7px;
+		    font-size: 16px;
+		}
+		
+		.register_box{
+				width:500px;
+			}
+			.pagination > li > a, .pagination > li > span {
+		    font-size:20px;
+		    padding: 6px 12px;
+		    line-height:24px ;
+		 }
+		  .page_paginate ul.pagination{
+       	display:block;
+       	  margin:10px auto;
+       	  width:400px;
+       }
+	}
+    @media(min-width: 1200px){
+    	
+    	.navbar-fixed-top{
+    		position: absolute!important;
+    	}
+    	.item img{
+        	width:100%;
+        	height:600px!important;
+        }
+        .item.item0 img{
+        	width:100%;
+        	height:300px!important;
+        }
+      .navbar a.drop_link {
+		    padding-left: 20px;
+		    padding-right: 20px;
+		    font-size: 16px;
+		}
+		.register_box{
+				width:500px;
+			}
+			.pagination > li > a, .pagination > li > span {
+		    font-size:20px;
+		    padding: 6px 12px;
+		    line-height:24px ;
+		 }
+		  .page_paginate ul.pagination{
+       	display:block;
+       	  margin:10px auto;
+       	  width:400px;
+       }
+   }
