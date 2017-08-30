@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+	<html>
+		<head lang="en">
+			    <meta charset="UTF-8">
+			    <title>官网-首页</title>
+			    <!-- 设置 viewport -->
+			    <meta name="viewport" content="width=device-width, initial-scale=1">
+			    <meta http-equiv="keywords" content="星,星鑫,传媒,文化">
+			    <meta http-equiv="Window-target" content="_top">
+			    <!-- IE -->
+			    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+			    <!-- 兼容国产浏览器的高速模式 -->
+			    <meta name="renderer" content="webkit">
+			    <!-- 引入 Bootstrap 的 CSS 文件 -->
+			    <link rel="stylesheet" href="../bootstrap-3.3.6-dist/css/bootstrap.css"/>
+			    <!--<link rel="stylesheet" href="../css/swiper.min.css" />-->
+			    <link rel="stylesheet" href="../css/idangerous.swiper.css" />
+			    <link rel="stylesheet" href="../css/common.css"/>
+			    <link rel="stylesheet" href="../css/intel.css"/>
+			     <link rel="stylesheet" href="../css/style.css"/>
+			     <!--
+			      html5shiv.js 文件的作用
+			      * 用于可以让 IE 8 浏览器兼容 HTML5 提供的新元素 
+			      respond.js 文件的作用
+			      * 用于可以让 IE 8 浏览器兼容 CSS3 提供的媒体查询
+			     -->
+			    <!--[if lt IE 9]>
+				  <script src="../bootstrap-3.3.6-dist/js/html5shiv.min.js"></script>
+				  <script src="../bootstrap-3.3.6-dist/js/respond.min.js"></script>
+				  <![endif]-->
+				<!--添加测试代码-->
+			    
+			    <style>
+			    </style>
+		</head>
+	<body>
+		<!--当前的代码实现完全按照分析思路进行
+		   1.完成需实现的功能（不考虑代码性能）
+		   2.考虑如何优化当前的代码
+		   原则：代码没有最好能的，只有更好！
+		-->
+	   <!-- 导航条-->
+	   <!-- 导航条
+         *基类 navbar
+         *修饰类 navbar-*
+         *自定义样式 (先不做考虑)
+       导航条的整体效果
+       2.固定在页面的顶部（宽度为100%）
+        * 添加class为.navbar-fixed-top
+        *始终显示
+       导航条的组件
+         *品牌图标  .navbar-brand 图片显示的height只能为20
+         *移动端 class为navbar-header
+         *pc端 .collapse .navbar-collapse
+       -->
+       <!--head-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+         <div class="navbar-header">
+          <a href="#" class="navbar-brand">
+          </a>
+          <!--面包导航按钮 -->
+          <button class="navbar-toggle" data-target="#list" data-toggle="collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+         </div>
+          <div id="list" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav navbar-right" id="list_nav">
+              	 <li class="active">
+                      <a  class=" drop_link" href="#footer1" >首页</a>
+                  </li>
+                  <li >
+                      <a  class="drop_link" href="#footer2">课程学习</a>
+                  </li>
+                   <li >
+                      <a  class=" drop_link" href="#footer3">热门直播</a>
+                  </li>
+                  <li >
+                      <a  class=" drop_link" href="#footer4">热门活动</a>
+                  </li>
+                  <li >
+                      <a  class=" drop_link" href="#footer5">师资</a>
+                  </li>
+                   <li >
+                      <a  class=" drop_link" href="#footer6">旅游出行</a>
+                  </li>
+                  <li >
+                      <a  class=" drop_link" href="#footer7">定制</a>
+                  </li>
+                  <li >
+                      <a  class=" drop_link" href="#footer8">学员福利</a>
+                  </li>
+                  <li >
+                      <a  class=" drop_link"  href="#footer8">登录/注册</a>
+                  </li>
+            </ul>
+              
+         </div>
+      </div>
+   </nav>
+   <!-- 主体-->
+    <section >
+   	<!--banner-->
+   	 	<div id="myCarousel" name="footer1" class="carousel slide slide_box" data-wrap="true" >
+			    <!-- 轮播（Carousel）指标 -->
+			    <ol class="carousel-indicators">
+			        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			        <li data-target="#myCarousel" data-slide-to="1"></li>
+			        <li data-target="#myCarousel" data-slide-to="2"></li>
+			    </ol>   
+			    <!-- 轮播（Carousel）项目 -->
+			    <div class="carousel-inner">
+			        <div class="item active">
+			            <img src="../images/intel.web.864.486.1.jpg" alt="First slide">
+			            <div class="carousel-caption">
+			            	<div class="banner_content">
+			            		<p class="banner_title">手机摄影后期 APP <span class="title_other">直播</span></p>
+			            	    <p class="banner_detail">10课时学完 风景/人文/人像/美食/创意/手机后期处理技巧</p>
+			            	    <span class="banner_btn btn">查看详情</span>
+			            	</div>
+			            	
+			            </div>
+			        </div>
+			        <div class="item">
+			            <img src="../images/intel.web.864.486.2.jpg" alt="Second slide">
+			            <div class="carousel-caption">
+			            	<div class="banner_content">
+			            		<p class="banner_title">手机摄影后期 APP <span class="title_other">直播</span></p>
+			            	    <p class="banner_detail">10课时学完 风景/人文/人像/美食/创意/手机后期处理技巧</p>
+			            	    <span class="banner_btn btn">查看详情</span>
+			            	</div>
+			            </div>
+			        </div>
+			        <div class="item">
+			            <img src="../images/intel.web.864.486.3.jpg" alt="Third slide">
+			            <div class="carousel-caption">
+			            	<div class="banner_content">
+			            		<p class="banner_title">手机摄影后期 APP <span class="title_other">直播</span></p>
+			            	    <p class="banner_detail">10课时学完 风景/人文/人像/美食/创意/手机后期处理技巧</p>
+			            	    <span class="banner_btn btn">查看详情</span>
+			            	</div>
+			            </div>
+			        </div>
+			    </div>
+   </div>
+  <!--课程学习-->
+     <div class="course_container footer2" id="footer2" name="footer2">
+       	  <div class="container">
+		    <div class="row">
+		    	 <h2 class="page_title">课程学习</h2>
+				  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				    <div class="thumbnail course_box">
+				      <img src="../images/ke_01.png" alt="...">
+				      <div class="caption">
+				        <h3 class="course_title">Bridge详解</h3>
+				        <p class="course_detail">摄影师作品管理必备工具！ Bridge的作用就像它的名字一样在照片浏览照片之间架起了一座桥梁。</p>
+				        <p class="course_info"><span>课时：</span>72min </p>
+				        <p class="course_info"><span>老师：</span>黄小捷 </p>
+				        <p>
+				        	<a href="#" class="btn enlist_btn" role="button">我要报名</a> 
+				        </p>
+				      </div>
+				    </div>
+				  </div>
+				  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				    <div class="thumbnail course_box">
+				      <img src="../images/ke_02.png" alt="...">
+				      <div class="caption">
+				        <h3 class="course_title">64节课教你玩转单反...</h3>
+				        <p class="course_detail">现代的数码相机优势在于，无论你使用单反还是傻瓜相机或者手机摄影像头，你的数码相机都可以替你决定所有 ...</p>
+				        <p class="course_info"><span>课时：</span>72min </p>
+				        <p class="course_info"><span>老师：</span>黄小捷 </p>
+				        <p>
+				        	<a href="#" class="btn enlist_btn" role="button">我要报名</a> 
+				        </p>
+				      </div>
+				    </div>
+				  </div>
+				  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				    <div class="thumbnail course_box">
+				      <img src="../images/ke_03.png" alt="...">
+				      <div class="caption">
+				        <h3 class="course_title">《东方韵》人像摄影</h3>
+				        <p class="course_detail">增强中国传统文化的认知，提升后期制作水平和审美，手把手给大家讲解中国风摄影知识和PS特殊技巧！</p>
+				        <p class="course_info"><span>课时：</span>72min </p>
+				        <p class="course_info"><span>老师：</span>黄小捷 </p>
+				        <p>
+				        	<a href="#" class="btn enlist_btn" role="button">我要报名</a> 
+				        </p>
+				      </div>
+				    </div>
+				  </div>
+				   <p class="more_btn"><a href="#" class="btn " role="button">更多课程</a></p>
+		    </div>
+		  </div>
+		</div>
+	<!--热门直播-->	
+	<div class="broadcast_container footer3" id="footer3" name="footer3">
+       	  <div class="container">
+		    <div class="row">
+		       <h2 class="page_title">热门直播</h2>
+		         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+				    <div class="thumbnail broadcast_box">
+				      <img src="../images/bostrat_01.png" alt="...">
+				      <div class="caption">
+				        <h3 class="broadcast_title">前期构图</h3>
+				        <p class="broadcast_detail">摄影师作品管理必备工具！ Bridge的作用就像它的名字一样在照片浏览照片之间架起了一座桥梁。</p>
+				      </div>
+				    </div>
+				 </div>
+				  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+				    <div class="thumbnail broadcast_box">
+				      <img src="../images/bostrat_02.png" alt="...">
+				      <div class="caption">
+				        <h3 class="broadcast_title">人物肖像</h3>
+				        <p class="broadcast_detail">摄影师作品管理必备工具！ Bridge的作用就像它的名字一样在照片浏览照片之间架起了一座桥梁。</p>
+				      </div>
+				    </div>
+				 </div>
+				  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+				    <div class="thumbnail broadcast_box">
+				      <img src="../images/bostrat_03.png" alt="...">
+				      <div class="caption">
+				        <h3 class="broadcast_title">后期处理</h3>
+				        <p class="broadcast_detail">摄影师作品管理必备工具！ Bridge的作用就像它的名字一样在照片浏览照片之间架起了一座桥梁。</p>
+				      </div>
+				    </div>
+				 </div>
+				  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+				    <div class="thumbnail broadcast_box">
+				      <img src="../images/bostrat_04.png" alt="...">
+				      <div class="caption">
+				        <h3 class="broadcast_title">风景拍摄</h3>
+				        <p class="broadcast_detail">摄影师作品管理必备工具！ Bridge的作用就像它的名字一样在照片浏览照片之间架起了一座桥梁。</p>
+				      </div>
+				    </div>
+				 </div>
+				  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+				    <div class="thumbnail broadcast_box">
+				      <img src="../images/bostrat_05.png" alt="...">
+				      <div class="caption">
+				        <h3 class="broadcast_title">自然地理</h3>
+				        <p class="broadcast_detail">摄影师作品管理必备工具！ Bridge的作用就像它的名字一样在照片浏览照片之间架起了一座桥梁。</p>
+				      </div>
+				    </div>
+				 </div>
+				  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+				    <div class="thumbnail broadcast_box">
+				      <img src="../images/bostrat_06.png" alt="...">
+				      <div class="caption">
+				        <h3 class="broadcast_title">创意人文</h3>
+				        <p class="broadcast_detail">摄影师作品管理必备工具！ Bridge的作用就像它的名字一样在照片浏览照片之间架起了一座桥梁。</p>
+				      </div>
+				    </div>
+				 </div>
+		   </div>
+		  </div>
+		</div>
+	<!--热门活动-->	
+	<div class="activity_container footer4" id="footer4" name="footer4">
+       	<div class="container">
+		    <div class="row">
+		       <h2 class="page_title">热门活动</h2>
+		       <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+		       	 <div class="box">
+					<img src="../images/activ_01.png">
+					<div class="activity_content">
+						<h3 class="title0">雷神索尔</h3>
+					</div>
+					<div class="box-content">
+						<h3 class="title">雷神索尔</h3>
+						<span class="post">是否时常想起那不羁的年代 抛却了世俗与枷锁  故地重游之苏州旅拍 </span>
+					</div>
+				 </div>
+		       </div>
+		        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+		       	 <div class="box">
+					<img src="../images/activ_01.png">
+					<div class="activity_content">
+						<h3 class="title0">背包去看看</h3>
+					</div>
+					<div class="box-content">
+						<h3 class="title">背包去看看</h3>
+						<span class="post">是否时常想起那不羁的年代 抛却了世俗与枷锁  故地重游之苏州旅拍 </span>
+					</div>
+				</div>
+		       </div>
+		        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+		       	 <div class="box">
+					<img src="../images/activ_01.png">
+					<div class="activity_content">
+						<h3 class="title0">背包去看看</h3>
+					</div>
+					<div class="box-content">
+						<h3 class="title">背包去看看</h3>
+						<span class="post">是否时常想起那不羁的年代 抛却了世俗与枷锁  故地重游之苏州旅拍 </span>
+					</div>
+				</div>
+		       </div>
+		        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+		       	 <div class="box">
+					<img src="../images/activ_01.png">
+					<div class="activity_content">
+						<h3 class="title0">背包去看看</h3>
+					</div>
+					<div class="box-content">
+						<h3 class="title">背包去看看</h3>
+						<span class="post">是否时常想起那不羁的年代 抛却了世俗与枷锁  故地重游之苏州旅拍 </span>
+					</div>
+				</div>
+		       </div>
+		        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+		       	 <div class="box">
+					<img src="../images/activ_01.png">
+					<div class="activity_content">
+						<h3 class="title0">背包去看看</h3>
+					</div>
+					<div class="box-content">
+						<h3 class="title">背包去看看</h3>
+						<span class="post">是否时常想起那不羁的年代 抛却了世俗与枷锁  故地重游之苏州旅拍 </span>
+					</div>
+				</div>
+		       </div>
+		         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+		       	 <div class="box">
+					<img src="../images/activ_01.png">
+					<div class="activity_content">
+						<h3 class="title0">背包去看看</h3>
+					</div>
+					<div class="box-content">
+						<h3 class="title">背包去看看</h3>
+						<span class="post">是否时常想起那不羁的年代 抛却了世俗与枷锁  故地重游之苏州旅拍 </span>
+					</div>
+				</div>
+		       </div>
+		          <p class="more_btn active_btn"><a href="#" class="btn " role="button">更多活动</a></p>
+		    </div>
+		</div>
+	</div>
+    <!--明星导师-->
+    <div class="tutor_container footer5" id="footer5" name="footer5">
+       	<div class="container">
+		    <div class="row">
+		       <h2 class="page_title">明星导师</h2>
+		        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+		        	<div class="media tutor">
+					  <div class="media-left tutor_left">
+					    <a href="#">
+					      <img class="media-object tutor_head" src="../images/ke_02.png" alt="...">
+					    </a>
+					  </div>
+					  <div class="media-body">
+					    <h4 class="media-heading tutor_name">Ben老师</h4>
+					    <p class="tutor_title"> 佳能优秀讲师</p>
+					  </div>
+					</div>
+		        </div>
+		        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+		        	<div class="media tutor">
+					  <div class="media-left tutor_left">
+					    <a href="#">
+					      <img class="media-object tutor_head" src="../images/activ_01.png" alt="...">
+					    </a>
+					  </div>
+					  <div class="media-body">
+					    <h4 class="media-heading tutor_name">Ben老师</h4>
+					    <p class="tutor_title"> 佳能优秀讲师</p>
+					  </div>
+					</div>
+		        </div>
+		        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+		        	<div class="media tutor">
+					  <div class="media-left tutor_left">
+					    <a href="#">
+					      <img class="media-object tutor_head" src="../images/activ_02.png" alt="...">
+					    </a>
+					  </div>
+					  <div class="media-body">
+					    <h4 class="media-heading tutor_name">Ben老师</h4>
+					    <p class="tutor_title"> 佳能优秀讲师</p>
+					  </div>
+					</div>
+		        </div>
+		        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+		        	<div class="media tutor">
+					  <div class="media-left tutor_left">
+					    <a href="#">
+					      <img class="media-object tutor_head" src="../images/activ_04.png" alt="...">
+					    </a>
+					  </div>
+					  <div class="media-body">
+					    <h4 class="media-heading tutor_name">Ben老师</h4>
+					    <p class="tutor_title"> 佳能优秀讲师</p>
+					  </div>
+					</div>
+		        </div>
+		        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+		        	<div class="media tutor">
+					  <div class="media-left tutor_left">
+					    <a href="#">
+					      <img class="media-object tutor_head" src="../images/ke_02.png" alt="...">
+					    </a>
+					  </div>
+					  <div class="media-body">
+					    <h4 class="media-heading tutor_name">Ben老师</h4>
+					    <p class="tutor_title"> 佳能优秀讲师</p>
+					  </div>
+					</div>
+		        </div>
+		        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+		        	<div class="media tutor">
+					  <div class="media-left tutor_left">
+					    <a href="#">
+					      <img class="media-object tutor_head" src="../images/ke_03.png" alt="...">
+					    </a>
+					  </div>
+					  <div class="media-body">
+					    <h4 class="media-heading tutor_name">Ben老师</h4>
+					    <p class="tutor_title"> 佳能优秀讲师</p>
+					  </div>
+					</div>
+		        </div>
+		        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+		        	<div class="media tutor">
+					  <div class="media-left tutor_left">
+					    <a href="#">
+					      <img class="media-object tutor_head" src="../images/activ_05.png" alt="...">
+					    </a>
+					  </div>
+					  <div class="media-body">
+					    <h4 class="media-heading tutor_name">Ben老师</h4>
+					    <p class="tutor_title"> 佳能优秀讲师</p>
+					  </div>
+					</div>
+		        </div>
+		        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+		        	<div class="media tutor">
+					  <div class="media-left tutor_left">
+					    <a href="#">
+					      <img class="media-object tutor_head" src="../images/ke_02.png" alt="...">
+					    </a>
+					  </div>
+					  <div class="media-body">
+					    <h4 class="media-heading tutor_name">Ben老师</h4>
+					    <p class="tutor_title"> 佳能优秀讲师</p>
+					  </div>
+					</div>
+		        </div>
+		        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+		        	<div class="media tutor">
+					  <div class="media-left tutor_left">
+					    <a href="#">
+					      <img class="media-object tutor_head" src="../images/more.png" alt="...">
+					    </a>
+					  </div>
+					  <div class="media-body">
+					    <h4 class="media-heading tutor_name">查看更多</h4>
+					    <p class="tutor_title">优秀导师尽在此</p>
+					  </div>
+					</div>
+		        </div>
+	         </div>
+		</div>
+	</div>	       
+   <!--旅游出行-->
+   <div class="tourism_container footer6" id="footer6" name="footer6">
+       	<div class="container">
+		    <div class="row">
+		       <h2 class="page_title">旅游出行</h2>
+		       <div class="swiper-container swiper-container-horizontal swiper-container-free-mode floor6_container">
+		        <div class="swiper-wrapper">
+		        	 <div class="swiper-slide floor6_slide" >
+		            	<div class="slide_div box-shadow1 ">
+		            		<img src="../images/activ_02.png" alt="" />
+		            	  <div class="slide_div_text">
+		            		<h2 class="toursim_title">爱良安的江湖—武侠人像 </h2>
+		            		<h2>2017.05.13 - 04.11</h2>
+		            		<p>纵贯清真寺，观礼虔诚的祈祷，探访宫殿古宅，深入了解波斯故土文化精髓。亮点NO.2【多彩之旅】漫步沙漠小镇。纵贯清真寺，观礼虔诚的祈祷，探访宫殿古宅，深入纵贯清真寺，观礼虔诚的祈祷，探访宫殿古宅，深入</p>
+		            	  </div> 
+		            	</div>
+		            </div>
+		        	 <div class="swiper-slide floor6_slide" >
+		            	<div class="slide_div box-shadow1 ">
+		            		<img src="../images/activ_01.png" alt="" />
+		            	  <div class="slide_div_text">
+		            	      <h2 class="toursim_title">穿越神秘“罗布泊无人区”</h2>
+		            		<h2>2017.08.15 - 08.30</h2>
+		            		<p>纵贯清真寺，观礼虔诚的祈祷，探访宫殿古宅，深入了解波斯故土文化精髓。亮点NO.2【多彩之旅】漫步沙漠小镇。纵贯清真寺，观礼虔诚的祈祷，探访宫殿古宅，深入了解波斯故土文化精髓。亮点NO.2【多彩之旅】漫步沙漠</p>
+		            	  </div> 
+		            	</div>
+		            </div>
+		            <div class="swiper-slide floor6_slide" >
+		            	<div class="slide_div box-shadow1 ">
+		            		<img src="../images/activ_05.png" alt="" />
+		            	  <div class="slide_div_text">
+		            		<h2 class="toursim_title">丝路明珠·情迷波斯</h2>
+		            		<h2>2017.09.15 - 09.28</h2>
+		            		<p>纵贯清真寺，观礼虔诚的祈祷，纵贯清真寺，观礼虔诚的祈祷，探访宫殿古宅，深入纵贯清真寺，观礼虔诚的祈祷，探访宫殿古宅，深入探访宫殿古宅，深入了解波斯故土文化精髓。亮点NO.2【多彩之旅】漫步沙漠小镇。</p>
+		            	  </div> 
+		            	</div>
+		            </div>
+		        	 <div class="swiper-slide floor6_slide" >
+		            	<div class="slide_div box-shadow1 ">
+		            		<img src="../images/activ_01.png" alt="" />
+		            	  <div class="slide_div_text">
+		            	      <h2 class="toursim_title">爱良安的江湖—武侠人像 </h2>
+		            		<h2>2017.05.13 - 04.11</h2>
+		            		<p>纵贯清真寺，观礼虔诚的祈祷，纵贯清真寺，观礼虔诚的祈祷，探访宫殿古宅，深入纵贯清真寺，观礼虔诚的祈祷，探访宫殿古宅，深入纵贯清真寺，观礼虔诚的祈祷，探访宫殿古宅，深入探访宫殿古宅，深入了解波斯故土文化精髓。亮点NO.2【多彩之旅】漫步沙漠小镇。</p>
+		            	  </div> 
+		            	</div>
+		            </div>
+		             <div class="swiper-slide floor6_slide" >
+		            	<div class="slide_div box-shadow1 ">
+		            		<img src="../images/activ_04.png" alt="" />
+		            	  <div class="slide_div_text">
+		            		<h2 class="toursim_title">爱良安的江湖—武侠人像 </h2>
+		            		<h2>2017.05.13 - 04.11</h2>
+		            		<p>纵贯清真寺，观礼虔诚的祈祷，纵贯清真寺，观礼虔诚的祈祷，探访宫殿古宅，深入纵贯清真寺，观礼虔诚的祈祷，探访宫殿古宅，深入纵贯清真寺，观礼虔诚的祈祷，探访宫殿古宅，深入探访宫殿古宅，深入了解波斯故土文化精髓。亮点NO.2【多彩之旅】漫步沙漠小镇。</p>
+		            	  </div> 
+		            	</div>
+		            </div>
+		        	 <div class="swiper-slide floor6_slide" >
+		            	<div class="slide_div box-shadow1 ">
+		            		<img src="../images/activ_03.png" alt="" />
+		            	  <div class="slide_div_text">
+		            	      <h2 class="toursim_title">爱良安的江湖—武侠人像 </h2>
+		            		<h2>2017.05.13 - 04.11</h2>
+		            		<p>纵贯清真寺，观礼虔诚的祈祷，纵贯清真寺，观礼虔诚的祈祷，探访宫殿古宅，深入纵贯清真寺，观礼虔诚的祈祷，探访宫殿古宅，深入纵贯清真寺，观礼虔诚的祈祷，探访宫殿古宅，深入探访宫殿古宅，深入了解波斯故土文化精髓。亮点NO.2【多彩之旅】漫步沙漠小镇。</p>
+		            	  </div> 
+		            	</div>
+		            </div>
+		            
+		            
+		            
+		            
+		            
+		         </div>
+		          <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets pagination1"></div>
+		      </div>	
+                <span class="banner_btn btn tourism_btn">更多路线</span>
+		    </div>
+		</div>
+	</div>	      
+   <!--私人定制-->
+   <div class="personal_container footer7" id="footer7" name="footer7">
+   	  <div class="container">
+		    <div class="row personal_row">
+   	          <span class="personal_info">只有你想不到,没有我做不到！</span>
+   	          <span  class="banner_btn btn personal_btn">私人定制</span>
+   	        </div>
+   	  </div>
+   </div>
+    <!--学员专属福利-->
+    <div class="welfare_container footer8" id="footer8" name="footer8">
+       	<div class="container">
+		    <div class="row">
+		    	 <h2 class="page_title">学员专属福利</h2>
+		        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		        	<div class="welfare_title">
+			        	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 active form_tile first">
+			        	      登录
+			        	 </div>
+			        	 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 form_tile">
+			        		注册
+			        	 </div>
+		        	</div>
+		        	<form class="login form-horizontal" role="form">
+					  <div class="form-group login_input">
+					    <label for="firstname" class="col-lg-2 col-md-2 col-sm-2 col-xs-3 control-label">手机号</label>
+					    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-9">
+					      <input type="text" class="form-control text_input" id="phone" placeholder="请输入手机号">
+					    </div>
+					  </div>
+					  <div class="form-group login_input">
+					    <label for="lastname" class="col-lg-2 col-md-2 col-sm-2 col-xs-3 control-label">密码</label>
+					    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-9">
+					      <input type="password" class="form-control text_input" id="password" placeholder="请输入密码">
+					    </div>
+					  </div>
+					  <div class="form-group corde_group">
+					  	<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 login_input corde" >
+					  		 <label for="lastname" class="col-lg-3 col-md-3 col-sm-3 col-xs-4 control-label corde_label">验证码</label>
+					       <div class="col-lg-9 col-md-9 col-sm-9 col-xs-8">
+					        <input type="text" class="form-control text_input" id="code_input" placeholder="">
+					       </div>
+					  	</div>
+					    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+					      <input type="text" class="form-control"  id="code" onclick="createCode();" readonly='readonly'  title='点击更换验证码'>
+					    </div>
+					  </div>
+					  
+					     <span class="banner_btn btn login_btn">登录</span>
+					     <span class="banner_btn btn sigin_btn">注册</span>
+					</form>
+		        </div>
+		        
+		        
+		         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		         	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 welfare_img" >
+		         		<img src="../images/we_04.png" alt="" />
+		         	</div>
+		         	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 welfare_img" >
+		         		<img src="../images/we_03.png" alt="" />
+		         	</div>
+		         	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 welfare_img" >
+		         		<img src="../images/we_04.png" alt="" />
+		         	</div>
+		         	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 welfare_img" >
+		         		<img src="../images/we_03.png" alt="" />
+		         	</div>
+		         	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 welfare_img" >
+		         		<img src="../images/we_04.png" alt="" />
+		         	</div>
+		         	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 welfare_img" >
+		         		<img src="../images/we_03.png" alt="" />
+		         	</div>
+		         	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 welfare_img" >
+		         		<img src="../images/we_03.png" alt="" />
+		         	</div>
+		         	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 welfare_img" >
+		         		<img src="../images/we_04.png" alt="" />
+		         	</div>
+		         	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 welfare_img" >
+		         		<img src="../images/we_03.png" alt="" />
+		         	</div>
+		         	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 welfare_img" >
+		         		<img src="../images/we_04.png" alt="" />
+		         	</div>
+		         </div>
+             </div>
+		</div>
+	</div>	      
+   <!--footer底部-->
+    <footer>
+	 <div class="container">
+	           <div class="row">
+	           	   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 codes_div"> 
+	           	   	 <img src="../images/logo.png" alt="" class="footer_logo"/>
+	           	   	 <ul class="logo_ul">
+	           	   	 	<li>
+	           	   	 		<img src="../images/icon_01.png" alt="" class="weibo_icon"/>
+	           	   	 		<img class="weibo tan_icon" src="../images/weibo1.png" alt="" >
+	           	   	 	</li>
+	           	   	 	<li>
+	           	   	 		<img src="../images/icon_02.png" alt="" class="qq_icon"/>
+	           	   	 		<img class="qq tan_icon" src="../images/qq1.png" alt="" >
+	           	   	 	</li>
+	           	   	 	<li>
+	           	   	 		<img src="../images/icon_03.png" alt="" class="twitter_icon"/>
+	           	   	 		<img class="twitter tan_icon" src="../images/twitter1.png" alt="" >
+	           	   	 	</li>
+	           	   	 	<li>
+	           	   	 		<img src="../images/icon_04.png" alt="" class="wechat_icon"/>
+	           	   	 		<img class="wechat tan_icon" src="../images/wechat1.png" alt="" >
+	           	   	 	</li>
+	           	   	 </ul>
+	           	   	
+	           	 	</div>
+			        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 footer_info">   	
+			           <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			               <ul class="list-unstyled">
+			                   <li><h4>服务指南</h4></li>
+			                   <li><a href="#">登录注册</a></li>
+			                   <li><a href="#">课程指南</a></li>
+			                   <li><a href="#">如何互动</a></li>
+			                   <li><a href="#">成为会员</a></li>
+			               </ul>
+			           </div>
+			           <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			               <ul class="list-unstyled">
+			                   <li><h4>学习帮助</h4></li>
+			                   <li><a href="#">怎样听课</a></li>
+			                   <li><a href="#">下载中心</a></li>
+			                   <li><a href="#">如何提问</a></li>
+			                    <li><a href="#">学习充值</a></li>
+			                  
+			               </ul>
+			           </div>
+			           <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			               <ul class="list-unstyled">
+			                   <li><h4>常见问题</h4></li>
+			                   <li><a href="#">帮助中心</a></li>
+			                   <li><a href="#">意见反馈</a></li>
+			               </ul>
+			           </div>
+			           <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			               <ul class="list-unstyled">
+			                   <li><h4>关于我们</h4></li>
+			                   <li ><a  href="#">星鑫传媒</a></li>
+			                   <li ><a  href="#">师资力量</a></li>
+			                   <li ><a  href="#">关于我们</a></li>
+			                   <li ><a  href="#">联系我们</a></li>
+			               </ul>
+			           </div>
+			         <div class="row">
+			               <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			                  <a href="#" class="copy">Powered by 星鑫传媒  课程存档<br> 版权&copy;上海星鑫文化传媒有限公司所有 粤ICP备12345678号</a>
+			                 <div class="zs" style="float:right; margin-top:12px">
+                       <!-- <img src="/upload/photo/month_1511/20151123185729_9652.png" width="119" height="78" alt="" />-->
+						 <div class="bdsharebuttonbox">
+						 	<a href="#" class="bds_more" data-cmd="more"></a>
+						 	<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+						 	<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+						 	<a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+						 	<a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+						 	<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+						 </div>
+                   <script>
+                   	window._bd_share_config = { 
+                   		"common": { 
+                   			"bdSnsKey": {}, 
+                   			"bdText": "",
+                   			"bdMini": "2", 
+                   			"bdPic": "", 
+                   			"bdStyle": "0", 
+                   			"bdSize": "16" 
+                   		}, "share": {} 
+                   	}; 
+                  with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+                   </script>
+
+                    </div>
+			               </div>
+			         </div>   
+			        </div>
+	         
+	          </div>
+	     </div>
+	 </footer>
+   </section>
+    <a href="javascript:void(0);" class="backtop" style="display:none" ></a>   
+	 <!-- <script language="javascript" src="http://api.pop800.com/800.js?n=296379&s=01&p=l&l=cn"></script>
+	 	<div style="display:none;"><a href="http://www.pop800.com">在线客服</a></div>
+	 -->
+	 <!-- 页脚-->
+	<!-- Bootstrap 提供的 JS 文件是基于 jQuery -->
+	<script src="../js/jquery.min.js"></script>
+	<!--<script src="../bootstrap-3.3.6-dist/js/jquery-1.11.3.js"></script>-->
+	<!-- 引入 Bootstrap 的 JS 文件 -->
+	<script src="../bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+	<!--<script type="text/javascript" src="../js/swiper.min.js"></script>-->
+	<script src="../js/idangerous.swiper2.7.6.js"></script>
+	<script type="text/javascript" src="../js/index.js"></script>
+	<script>
+		 var browser=navigator.appName; 
+		 var b_version=navigator.appVersion; 
+		 var version=b_version.split(";"); 
+		 var trim_Version=version[1].replace(/[ ]/g,"");// trim_Version=="MSIE6.0" IE6 trim_Version=="MSIE7.0"IE7
+		  if(browser=="Microsoft Internet Explorer" ){ 
+		    //alert("IE "); 
+		    $('head').append('<link rel="stylesheet" href="../css/ie.css"/>');
+		   
+		  }
+	     /*底部二维码*/
+
+		$(".weibo_icon").hover(function(){
+			console.log("11");
+			$(".weibo").fadeIn(500);
+			$(".qq,.twitter,.wechat").fadeOut(0);
+			$(".weibo").css("z-index",200);
+		},function(){
+			$(".weibo").fadeOut(0);
+		});
+	
+		$(".qq_icon").hover(function(){
+			console.log("22");
+			$(".qq").fadeIn(500);
+			$(".weibo,.twitter,.wechat").fadeOut(0);
+			$(".weibo").css("z-index",200);
+		},function(){
+			$(".qq").fadeOut(0);
+		});
+		$(".twitter_icon").hover(function(){
+			console.log("333");
+			$(".twitter").fadeIn(500);
+			$(".weibo,.qq,.wechat").fadeOut(0);
+			$(".twitter").css("z-index",200);
+		},function(){
+			$(".twitter").fadeOut(0);
+		});
+		$(".wechat_icon").hover(function(){
+			console.log("4444");
+			$(".wechat").fadeIn(500);
+			$(".weibo,.qq,.twitter").fadeOut(0);
+			$(".wechat").css("z-index",200);
+		},function(){
+			$(".wechat").fadeOut(0);
+		});
+	
+		
+	</script>
+  </body>
+</html>
